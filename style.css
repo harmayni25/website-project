@@ -11,7 +11,33 @@
     --text-light: #ffffff;
     --transition: all 0.3s ease;
 }
+.btn-apply{
+    background: linear-gradient(90deg, var(--blue), var(--green));
+    color:#fff;
+    margin:0 10px;
+    box-shadow:0 12px 28px rgba(11,93,215,.12);
+}
 
+.btn-apply:hover{
+    transform:translateY(-4px);
+    box-shadow:0 20px 40px rgba(47,158,68,.12);
+}
+
+.apply-online-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:.8rem 2rem;
+    border-radius:999px;
+    background:linear-gradient(90deg,var(--blue),var(--green));
+    color:#fff;
+    font-weight:700;
+    transition:var(--transition);
+}
+
+.apply-online-btn:hover{
+    transform:translateY(-4px);
+}
 /* ==========================
    2. Global Styles
    ========================== */
